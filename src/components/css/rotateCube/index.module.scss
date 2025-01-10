@@ -8,11 +8,11 @@
 }
 
 .spinner > div {
-  background-color: rgba(232, 182, 237, 0.2);
+  background-color: var(--main-color-opacity-3);
   height: 100%;
   position: absolute;
   width: 100%;
-  border: 2px solid #b687d5;
+  border: 2px solid var(--main-color);
   display: flex;
   align-items: center;
   justify-content: center;

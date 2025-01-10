@@ -15,7 +15,7 @@ export const RotateCube = () => {
   const markdown = `
 - 正方体由6个div组成，表面颜色background-color，边颜色border-color
 - 设置每个div的初始角度组成立方体
-- animation开始旋转
+- animation定义旋转角度
   `;
 
   return (
