@@ -3,8 +3,10 @@ import styles from "./index.module.scss";
 
 export const PseudoButton = () => {
   const component = (
-    <div className={styles.button}>
-      <div className={styles.text}>按钮</div>
+    <div
+      className={`${styles.button} flex items-center justify-center cursor-pointer`}
+    >
+      <div className={`${styles.text}`}>按钮</div>
     </div>
   );
   const markdown = ` 

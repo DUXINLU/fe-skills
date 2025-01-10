@@ -1,6 +1,6 @@
 .spinner {
-  width: 44px;
-  height: 44px;
+  width: 100px;
+  height: 100px;
   transform-style: preserve-3d;
   animation: spinner-rotate 2s infinite linear;
   //   可以查看静态下初始状态
@@ -19,7 +19,7 @@
 }
 
 .spinner div:nth-of-type(1) {
-  transform: translateZ(-22px) rotateY(180deg);
+  transform: translateZ(-50px) rotateY(180deg);
 }
 
 .spinner div:nth-of-type(2) {
@@ -43,7 +43,7 @@
 }
 
 .spinner div:nth-of-type(6) {
-  transform: translateZ(22px);
+  transform: translateZ(50px);
 }
 
 @keyframes spinner-rotate {

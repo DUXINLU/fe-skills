@@ -1,9 +1,10 @@
 .button {
+  width: var(--button-width);
+  height: var(--button-height);
+  border-radius: var(--button-border-radius);
   border: 2px solid var(--main-color);
   outline: 1px solid var(--main-color-opacity-3);
-  padding: 8px 32px;
   transition: 1s ease;
-  border-radius: 15px;
 
   &:hover {
     box-shadow: 0 0 10px 5px var(--main-color-opacity-3) inset;

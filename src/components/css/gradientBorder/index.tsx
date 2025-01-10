@@ -11,7 +11,7 @@ export const GradientBorder = () => {
     </>
   );
   const markdown = `  
-- 如果使用border-image + linear-gradient,就不能使用border-radius属性
+- 如果使用border-image + linear-gradient,border-radius属性会失效
 - 如果希望实现圆角+渐变边框,只能通过覆盖渐变背景的方式
   `;
   return (

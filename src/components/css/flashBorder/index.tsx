@@ -10,7 +10,7 @@ export const FlashBorderInput = () => {
   );
   const markdown = `
 - 父元素套子元素，子元素边缘留出空隙给border效果
-- border运动效果通过父元素+before，before渐变色+转动
+- border运动效果通过父元素+before,before元素位置在子元素下,before渐变色+转动
 - 注意before的position absolute要紧跟父元素的relative
   `;
 

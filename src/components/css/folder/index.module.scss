@@ -1,8 +1,8 @@
 .outter {
   position: relative;
 
-  width: 200px;
-  height: 130px;
+  width: var(--card-width);
+  height: var(--card-height);
   background-color: var(--main-color-opacity-3);
 
   border-top-left-radius: 15px;
@@ -41,7 +41,7 @@
     }
 
     &:hover {
-      transform: rotateX(-70deg);
+      transform: rotateX(-120deg);
     }
   }
 }

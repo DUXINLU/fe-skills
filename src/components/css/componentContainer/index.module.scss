@@ -1,8 +1,16 @@
 :root {
+  // 颜色
   --main-color: rgb(10, 213, 149);
   --main-color-opacity-3: rgba(10, 213, 149, 0.3);
   --main-gradient: rgb(211, 103, 193) 10%, rgb(222, 223, 64) 25%,
     rgb(98, 203, 92) 50%, rgb(0, 187, 203) 75%, rgb(171, 121, 214) 90%;
+
+  // 尺寸
+  --card-width: 300px;
+  --card-height: 170px;
+  --button-width: 100px;
+  --button-height: 40px;
+  --button-border-radius: 20px;
 }
 
 .container {
