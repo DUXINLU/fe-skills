@@ -1,8 +1,10 @@
 .spinner {
   width: 44px;
   height: 44px;
-  animation: spinner-rotate 2s infinite linear;
   transform-style: preserve-3d;
+  animation: spinner-rotate 2s infinite linear;
+  //   可以查看静态下初始状态
+  //   transform: rotate3d(0.5, 0.5, 0.5, 50deg);
 }
 
 .spinner > div {
@@ -11,6 +13,9 @@
   position: absolute;
   width: 100%;
   border: 2px solid #b687d5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .spinner div:nth-of-type(1) {
